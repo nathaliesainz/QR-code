@@ -43,3 +43,25 @@ p{
     font-weight: 400;
     margin: 0 45px 20px 45px;
 }
+
+/* MOBILE */
+
+@media (max-width: 375px){
+    body {
+        display: flex;
+        margin: 8% auto;
+        width: 375px;
+        justify-content: center;
+    }
+
+    .qr-div {
+        background-color: hsl(0, 0%, 100%);
+        display: flex;
+        width: 80%;
+        padding: 18px;
+        border-radius: 20px;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+}
